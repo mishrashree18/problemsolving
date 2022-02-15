@@ -1,4 +1,5 @@
 //leetcode problem 53
+// Kadane's Algorithm
 
 #include <bits/stdc++.h>
 using namespace std;
