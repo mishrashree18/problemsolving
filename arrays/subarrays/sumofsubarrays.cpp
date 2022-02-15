@@ -20,8 +20,9 @@ int main()
         for(int j=i; j<n; j++)
         {
             curr += arr[j];
-            cout << arr[j]<<endl;
-        }
+            cout << curr<<" ";
+            
+        }cout<<endl;
     }
     return 0;
 }
