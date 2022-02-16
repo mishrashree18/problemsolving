@@ -1,5 +1,6 @@
-//leetcode problem 53
+// leetcode problem 53
 // Kadane's Algorithm
+// time complexity O(n)
 
 #include <bits/stdc++.h>
 using namespace std;
