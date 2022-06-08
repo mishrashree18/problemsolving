@@ -12,12 +12,12 @@ using namespace std;
         for(int i=0;i<n;i++){
             cin>>arr[i];
         }
-        int ans=arr[0],i,j,sum=0;
+        int maxsofar=arr[0],sum=0;
         for(int i=0; i<n;i++){
             sum+=arr[i];
-            ans=max(sum,ans);
-            sum=max(sum,0);
+            maxsofar=max(sum,maxsofar);  // max so far is the maximum of sum till now or max so far
+            sum=max(sum,0); // if sum is less than zero then sum is zero
         }
-        cout<<ans<<" ";
+        cout<<maxsofar<<" ";
         return 0;
     };
