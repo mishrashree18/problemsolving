@@ -10,4 +10,10 @@ LIFO principle: The one which gets in last, gets out last.
 3. top(): returns the topmost element
 4. empty(): returns if the stack is empty
 
+### Applications of stack
+
+1. Infix 
+2. Prefix
+3. Postfix
+
 
